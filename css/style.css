@@ -35,33 +35,23 @@ footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
 }
-
 ul.posts { 
   margin: 20px auto 40px; 
   font-size: 1.5em;
 }
-
 ul.posts li {
   list-style: none;
 }
-
 .profile-pic {
   height: 300px;
-  padding-top: 5%;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
 }
-
-.flex {
+.flex-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-.flex-right {
-}
-
-.nav-log {
+.nav-logo {
   height: 40px;
   width: 40px;
   color: #999;
