@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 body {
   margin: 60px auto;
   width: 70%;
@@ -45,4 +43,27 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+.profile-pic {
+  height: 300px;
+  padding-top: 5%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-right {
+}
+
+.nav-log {
+  height: 40px;
+  width: 40px;
+  color: #999;
+  padding: 25px 7px;
 }
