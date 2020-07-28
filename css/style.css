@@ -2,14 +2,17 @@
 ---
 
 body {
-  margin: 60px auto;
+  margin: 0 auto;
+}
+nav{
+  margin: 0 auto;
+  background-color: rgba(153, 153, 153, 0.454);
 }
 nav ul, footer ul {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   padding: 0px;
   list-style: none;
   font-weight: bold;
-  background-color: #333
 }
 nav ul li, footer ul li {
   display: inline;
@@ -64,7 +67,10 @@ ul.posts li {
   vertical-align: middle;
   line-height: 92px;
   text-align: center;
+  padding: 37px
 }
 .landing-content {
   width: 70%;
+  margin: 0 auto;
+  justify-content: center;
 }
