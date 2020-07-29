@@ -34,7 +34,6 @@ p {
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
-  width: 70%;
 }
 ul.posts { 
   margin: 20px auto 40px; 
@@ -90,4 +89,12 @@ ul.posts li {
 }
 .center {
   justify-content: center;
+}
+.footer-padding {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+.content-box {
+  height: 500px
 }
