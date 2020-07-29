@@ -48,6 +48,7 @@ ul.posts li {
 .profile-pic {
   height: 300px;
   filter: drop-shadow(5px 5px 5px #222);
+  padding-right: 30px;
 }
 .flex-box {
   display: flex;
