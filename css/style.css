@@ -5,7 +5,6 @@ body {
   margin: 0 auto;
 }
 nav{
-  margin: 0 auto;
   background-color: rgba(153, 153, 153, 0.454);
 }
 nav ul, footer ul {
@@ -16,7 +15,6 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
   display: inline;
-  margin-right: 20px;
 }
 a {
   text-decoration: none;
@@ -54,12 +52,13 @@ ul.posts li {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 .nav-logo {
   height: 40px;
   width: 40px;
   color: #999;
-  padding: 25px 7px;
+  padding: 25px;
 }
 .nav-text {
   height: 92px;
@@ -67,7 +66,8 @@ ul.posts li {
   vertical-align: middle;
   line-height: 92px;
   text-align: center;
-  padding: 37px
+  padding: 37px;
+  font-size: 110%;
 }
 .landing-content {
   width: 70%;
