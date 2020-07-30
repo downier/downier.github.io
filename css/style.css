@@ -159,6 +159,7 @@ ul.posts li {
 .bio-recent-img {
   height: 250px;
   border-radius: 10px; 
+  width: 450px;
 }
 .txt-center {
   text-align: center;
