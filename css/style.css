@@ -17,6 +17,9 @@ nav ul, footer ul {
 nav ul li, footer ul li {
   display: inline;
 }
+footer ul li {
+  padding: 0 10px;
+}
 a {
   text-decoration: none;
   color: #999;
@@ -81,7 +84,6 @@ ul.posts li {
 .landing-content {
   margin: 0 auto;
   justify-content: center;
-  height: calc(100vh - 90px);
   width: 100%;
 }
 .highlight {
@@ -106,10 +108,15 @@ ul.posts li {
   padding: 10px;
 }
 .content-box {
-  height: 500px;
+  height: 450px;
   width: 70%;
 }
 
 .text-white{
   color: #fff;
+}
+
+.gradient {
+  height: 100vh;
+  background: linear-gradient(105deg, black 25%, yellow 25%);
 }
