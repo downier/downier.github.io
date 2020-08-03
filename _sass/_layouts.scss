@@ -129,6 +129,11 @@ ul.posts li {
   line-height: 30px;
   font-weight: 250;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @include for-size(desktop-up) {
+    padding: 20px;
+  }@mixin for-phone-only {
+    font-size: 30px;
+  }
 }
 
 .nav-container {
