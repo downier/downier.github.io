@@ -100,6 +100,7 @@ ul.posts li {
   width: 40px;
   color: #999;
   padding: 25px;
+ 
 }
 
 .nav-text {
@@ -122,16 +123,6 @@ ul.posts li {
 .highlight {
   color: #e31b6d;
   font-weight: 400;
-}
-
-.text {
-  font-size: 19px;
-  line-height: 30px;
-  font-weight: 250;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  @include for-phone-only {
-    font-size: 30px;
-  }
 }
 
 .nav-container {
@@ -157,6 +148,7 @@ ul.posts li {
   height: 450px;
   width: 70%;
   max-width: 1024px;
+
 }
 
 .text-white {
@@ -185,7 +177,6 @@ ul.posts li {
 .bio-proj {
   max-width: 461px;
   flex: 1 0 21%;
-  /* explanation below */
   margin: 5px;
   height: 300px;
   padding: 2%;
