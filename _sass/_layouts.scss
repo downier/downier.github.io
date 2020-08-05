@@ -77,13 +77,7 @@ ul.posts li {
   padding-right: 30px;
 }
 
-.flex-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
+
 
 .flex-col-70 {
   display: flex;
@@ -93,14 +87,6 @@ ul.posts li {
   margin: 0 auto;
   width: 70%;
   max-width: 1024px;
-}
-
-.nav-logo {
-  height: 40px;
-  width: 40px;
-  color: #999;
-  padding: 25px;
- 
 }
 
 .nav-text {

@@ -1,6 +1,6 @@
 ---
 ---
-@import "_layouts";
+@import "layouts";
 @charset "utf-8";
 
 $base-font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif !default;
@@ -30,7 +30,7 @@ $highlight-red: #e31b6d;
 @mixin for-tablet-portrait-up {
   @media (min-width: 600px) { @content; }
 }
-@mixin for-tablet-portait-only {
+@mixin for-tablet-portait-only  {
   @media (min-width: 600px) and (max-width: 899px) { @content; }
 }
 @mixin for-tablet-landscape-up {
@@ -49,6 +49,7 @@ $highlight-red: #e31b6d;
   @media (min-width: 1800px) { @content; }
 }
 
+
 .text {
   font-size: 19px;
   line-height: 30px;
@@ -56,5 +57,31 @@ $highlight-red: #e31b6d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   @include for-phone-only {
     font-size: 30px;
+    height: 100%
+  }
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  @include for-phone-only {
+    flex-direction: column;
+    height: 100%;
+  }
+  @include for-tablet-portait-only {
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.nav-logo {
+  height: 40px;
+  width: 40px;
+  color: #999;
+  padding: 25px;
+  @include for-phone-only {
+    padding: 20px;
   }
 }
